@@ -1,0 +1,30 @@
+
+
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+El error “Permission denied (publickey)” al intentar conectarte a GitHub 
+generalmente se debe a problemas con la autenticación mediante SSH. en el entorno web de Github
+Aquí tienes algunas soluciones para resolverlo:
+
+Resolver error de permiso denegado(clave pública) en Git
+
+1. Ingresar a nuestra cuenta de github entorno web
+2. Ingresar a settings o configuración 
+3. SSH and GPG keys 
+4. en la sesión SSH keys clic en el bonton New SSH keys
+5. ingresar al disco local C:\Users\nombre_usuarios\.ssh
+6. abrir en block de nota el archivo con extensión xxxxxxxx.pub
+7. copiar todo el texto ssh
+8. regresar a github entorno web
+5. Add new SSH Key
+a. title nombre del archivo xxxxxxxx.pub
+b. Key type: Authentiction Key
+c. Key pegar todo el texto ssh
+8. clic en el botón Add SSH key
+
+
+Autor. LuisK
